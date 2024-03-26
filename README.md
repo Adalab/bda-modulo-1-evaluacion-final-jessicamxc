@@ -1,21 +1,21 @@
 Instrucciones de uso del proyecto TiendaOnline:
 
-    En este repositorio encontrarás una plantilla de uso para tu Tienda Online, con ella podrás llevar un amplio registro de tu inventario, tus clientes y tus ventas totales.
+En este repositorio encontrarás una plantilla de uso para tu Tienda Online, con ella podrás llevar un amplio registro de tu inventario, tus clientes y tus ventas totales.
 
-    A continuación les explicaré la utilidad de cada metodo al ejecutarlo:
+A continuación les explicaré la utilidad de cada metodo al ejecutarlo:
 
-    En primer lugar tiene que instanciar la clase, es decir, dar nombre a su tienda e = (igualar)TiendaOnline(), asi podrá llamar a los metodos.
-        Ejemplo: tienda_ropa=TiendaOnline()
+En primer lugar tiene que instanciar la clase, es decir, dar nombre a su tienda e = (igualar)TiendaOnline(), asi podrá llamar a los metodos.
+- Ejemplo: tienda_ropa=TiendaOnline()
 
 Metodo agregar_productos(): Agrega el nombre del producto, junto con el precio y la cantidad que hay en stock. Si intentas agregar un producto ya existente (por el nombre), éste metodo entiende que está actualizando la cantidad de stock.
-	Ej: p1 = tienda_ropa.agregar_productos("camisa", 30, 10)
+- Ej: p1 = tienda_ropa.agregar_productos("camisa", 30, 10)
 
 Metodo ver_inventario(): Este método nos muestra el inventario del que disponemos, de una manera mas limpia y ordenada, de fácil lectura, pero mismos detalles que indicamos en el metodo anterior. (nombre, precio y cantidad)
-	Ej: Nombre: camisa Precio: $ 30 Cantidad:  10
-	Nombre: abrigo Precio: $ 10 Cantidad:  5
-	Nombre: pantalon Precio: $ 35 Cantidad:  5
-	Nombre: calcetines Precio: $ 4 Cantidad:  2
-	Nombre: vestido Precio: $ 40 Cantidad:  10
+- Ej: Nombre: camisa Precio: $ 30 Cantidad:  10
+- Nombre: abrigo Precio: $ 10 Cantidad:  5
+- Nombre: pantalon Precio: $ 35 Cantidad:  5
+- Nombre: calcetines Precio: $ 4 Cantidad:  2
+- Nombre: vestido Precio: $ 40 Cantidad:  10
 
 Metodo buscar_producto("nombre del producto"): Este metodo nos devuelve el nombre y detalles (precio y cantidad de stock) que hemos instanciado a buscar. Solo se puede buscar productos de uno en uno.
 
